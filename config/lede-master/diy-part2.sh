@@ -14,7 +14,7 @@
 # Add autocore support for armvirt
 sed -i 's/TARGET_rockchip/TARGET_rockchip\|\|TARGET_armvirt/g' package/lean/autocore/Makefile
 
-
+git clone https://github.com/xiaorouji/openwrt-passwall.git  package/lean/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/lean/luci-app-passwall2
 
 
