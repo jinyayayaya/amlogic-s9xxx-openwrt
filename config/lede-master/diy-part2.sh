@@ -36,7 +36,7 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall-packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git  package/lean/luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/lean/luci-app-passwall2
+
 
 
 
