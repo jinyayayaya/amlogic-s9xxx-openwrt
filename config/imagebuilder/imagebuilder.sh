@@ -139,6 +139,9 @@ custom_packages() {
     # Download other luci-app-xxx
     # ......
 
+    wget  https://github.com/xiaorouji/openwrt-passwall-packages.git -q -P packages
+    wget https://github.com/xiaorouji/openwrt-passwall.git -q -P packages
+
     sync && sleep 3
     echo -e "${INFO} [ packages ] directory status: $(ls packages -l 2>/dev/null)"
 }
