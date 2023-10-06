@@ -155,6 +155,7 @@ on:
           - 5.10.1
           - 5.15.1
           - 6.1.1
+          - 6.1.20
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
@@ -163,10 +164,12 @@ on:
       kernel_repo:
         description: "Set the kernel repository"
         required: false
-        default: "jinyayayaya/kernel"
+        default: "jinyayayaya/amlogic-s9xxx-openwrt"
         type: choice
         options:
           - jinyayayaya/kernel
+          - jinyayayaya/amlogic-s9xxx-openwrt
+          - ophub/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
