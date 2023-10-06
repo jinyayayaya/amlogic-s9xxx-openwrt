@@ -205,7 +205,6 @@ rebuild_firmware() {
         luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
         luci-app-passwall \
         luci-proto-wireguard  luci-app-wireguard kmod-wireguard wireguard-tools \
-        luci-app-dockerman luci-i18n-dockerman-zh-cn \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
         ${config_list} \
