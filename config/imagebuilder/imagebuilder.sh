@@ -206,7 +206,7 @@ rebuild_firmware() {
         luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
         luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6 luci-proto-ncm  \
         luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
-        luci-app-ssr-plus luci-app-passwall luci-app-vssr \
+        luci-app-ssr-plus luci-app-passwall luci-app-vssr luci-i18n-passwall-zh-cn luci-i18n-ssr-plus-zh-cn  \
         luci-proto-wireguard  luci-app-wireguard kmod-wireguard wireguard-tools \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
